@@ -1,0 +1,51 @@
+# Файлы IDE
+.idea/
+*.swp
+*.swo
+*~
+.gitignore 
+
+# Файлы операционных систем
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Файлы зависимостей (для Go и Node.js)
+vendor/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Бинарные файлы и исполняемые файлы
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Файлы базы данных (кроме основной, если нужно)
+*.db-journal
+*.sqlite3
+*.sqlite3-journal
+
+# Файлы конфигурации с чувствительными данными
+.env
+.env.local
+.env.production
+config.yaml
+config.yml
+
+# Билды и артефакты сборки
+build/
+out/
+.target/
+
+# Кэш
+.cache/
+.parcel-cache/
