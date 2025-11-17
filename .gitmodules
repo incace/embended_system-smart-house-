@@ -1,0 +1,3 @@
+[submodule "smart-house"]
+	path = smart-house
+	url = git@github.com:mushdi12/smart-house.git
